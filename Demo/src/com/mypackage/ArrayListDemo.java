@@ -12,6 +12,7 @@ public class ArrayListDemo {
 		arl.add("rajan");
 		arl.add("veera");
 		System.out.println("array list:" + arl);
+		System.out.println("raja");
 		arl.remove(2);
 		System.out.println("array list" + arl);
 		System.out.println("size of an array" + arl.size());
