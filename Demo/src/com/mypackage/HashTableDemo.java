@@ -15,6 +15,7 @@ public class HashTableDemo {
 		ht.put("sachin", 200);
 		ht.put("Dravid", 150);
 		System.out.println("The player names are:\n" + ht);
+		System.out.println("raja");
 		Enumeration<String> e = ht.keys();
 		while (e.hasMoreElements())
 			System.out.println(e.nextElement());
