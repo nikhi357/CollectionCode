@@ -14,7 +14,7 @@ public class StringTokenizerDemo {
 		System.out.println("Enter the pattern to separate with delimiter");
 		String str=br.readLine();
 		StringTokenizer st = new StringTokenizer(str, ",");
-		Pattern p=Pattern.compile("19*[0-9]");
+		Pattern p=Pattern.compile("19[0-9]2");
 		System.out.println(st.countTokens());
 		int count = 1;
 		boolean b=false;

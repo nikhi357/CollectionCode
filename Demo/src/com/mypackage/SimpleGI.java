@@ -11,7 +11,7 @@ public class SimpleGI<T, E> implements SimGI<T, E> {
 
 	public void add() {
 		String s1 = t.toString();
-		int x = Integer.parseInt(s1);
+		int x = Integer.parseInt(s1); 
 		String s2 = e.toString();
 		int y = Integer.parseInt(s2);
 		System.out.println("Sum of two values u entered is:" + (x + y));
